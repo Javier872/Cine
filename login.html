@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineworld</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="img/cine0.png" rel="icon"><!--logo en la parte superior-->
+
+    <style>
+
+      body{
+        background: #ffaf59;
+        background: linear-gradient(to right, #430000,#860202);
+      }
+      .bg{
+        background-image:url(img/cine0.png) ;
+        background-position: center center;
+      }
+    </style>
+</head>
+<body>
+ 
+  <div class="container w-75 bg-primary mt-5 rounded shadow">
+    <div class="row align-items-stretch">
+      <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+      </div>
+      <div class="col bg-white py-5 rounded-end">
+          <div class="text-end">
+            <img src="img/cinema.png" width="48" alt="">
+          </div>
+          <h2 class="fw-bold text-center py-5">¡BIENVENIDOS!<br>Cineworld</h2>
+
+          <!---login-->
+          <form action="#">
+            <div class="mb-4">
+              <label for="email" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <div class="mb-4 form-check">
+              <input type="checkbox" name="connected" class="form-check-input">
+              <label for="connected" class="form-check-label">Mantenerme conectado</label>
+            </div>
+
+            <div class="d-grip">
+              <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+            </div>
+
+            <div class="my-3">
+              <span>No tienes cuenta? <a href="#">Registrate</a></span> <br>
+              <span><a href="#">Recuperar password</a></span>
+            </div>
+          </form>
+
+          <!--login con redes sociales-->
+          <div class="container w-100 my-5">
+            <div class="row text-center">
+              <div class="col-12">Iniciar sesion</div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button class="btn btn-outline-danger w-100 my-1">
+                  <body>
+                  <div class="row align-items-center">
+                    <div class="col-2 d-none d-md-block">
+                      <img src="img/google.png" width="23" alt="">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">
+                      <a class="inicar" href="http://127.0.0.1:5555/index1.html">Google</a>
+
+                    </body>
+                    </html>
+                      
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div class="col">
+                <button class="btn btn-outline-danger w-100 my-1">
+                  <div class="row align-items-center">
+                    <div class="col-2 d-none d-md-block">
+                      <img src="img/facebook.png" width="23" alt="">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">
+                      <a class="inicar" href="https://www.facebook.com/">facebook</a>
+
+                    
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
