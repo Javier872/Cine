@@ -1,0 +1,156 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 50px;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    transform: translate(-10%, -10%);
+    
+}
+.nav-list {
+    list-style-type: none;
+  }
+  
+
+nav {
+    float: right;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    
+}
+.buscador{
+    position: absolute;
+    top: 14%;
+    left: 80%;
+    transform: translate(-80%, -90%);
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+    padding-left: 0;
+}
+  
+nav ul li {
+    margin-right: 40px;
+}
+  
+  
+nav a {
+    color: #fbfafa;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.peliculas {
+    margin-top: 30px;
+}
+
+.pelicula {
+    width: 25%;
+    margin-bottom: 900px;
+    text-align: 10px;
+    float: left;
+}
+
+.pelicula img {
+    max-width: 80%;
+}
+
+.pelicula h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.pelicula p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #faf8f8;
+    color: #fffdfd;
+    padding: 5px;
+    text-align: center;
+     
+}
+.logo {
+    height: 80px; /* Ajusta la altura según tus necesidades */
+    margin-right: 160px; /* Ajusta el margen derecho según tus necesidades */
+  }
+  
+/* Agrega este código en tu archivo styles.css */
+
+.popayan-message .message {
+    margin-right: 140px;
+    font-weight: bold;
+    position: absolute;
+    top: -250%;
+    color: #ffffff; /* Cambia el color del texto a blanco */
+  }
+  
+.popayan-message {
+    position: relative;
+    background-color: #e5e8eb;
+    padding: 20px;
+    top: 0; /* Ajusta este valor para subir o bajar el mensaje */
+    bottom: 0; /* Ajusta este valor para subir o bajar el mensaje */
+  }
+  
+  .popayan-message .message {
+    margin-right: 140px;
+    font-weight: bold;
+    position: absolute;
+    top: -300%;
+  }
+  
+  .popayan-message img {
+    max-height: 70px;
+    max-width: 30px;
+    position: absolute;
+    top: -220%;
+    transform: translateY(-50%);
+  }
+  
+  /* Estilos para los botones del menú */
+  .nav-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  /* Agrega este código en tu archivo styles.css */
+
+.popayan-message .message {
+    margin-right: 140px;
+    font-weight: bold;
+    position: absolute;
+    top: -250%;
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    left: 100; /* Ajusta el valor para desplazar el mensaje hacia la izquierda */
+    right: 0; /* Ajusta el valor para desplazar el mensaje hacia la derecha */
+  }
+  
